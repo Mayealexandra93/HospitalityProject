@@ -11,12 +11,12 @@ namespace HospitalityProject.Models
 
         [Required]
         [StringLength(100)]
-        public required string CustomerName { get; set; }
+        public string CustomerName { get; set; }
 
         [Required]
         [EmailAddress]
         [StringLength(100)]
-        public required string Email { get; set; }
+        public  string Email { get; set; }
 
         [Phone]
         [StringLength(20)]

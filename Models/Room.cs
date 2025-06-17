@@ -9,7 +9,7 @@ namespace HospitalityProject.Models
         public int RoomId { get; set; }
 
         [Required]
-        public required string RoomNumber { get; set; }
+        public string RoomNumber { get; set; }
 
         [Required]
         public int Capacity { get; set; }
